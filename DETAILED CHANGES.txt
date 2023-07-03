@@ -1,0 +1,113 @@
+TYPE EFFECTIVNESS CHANGES-----------------------------------------------------------------------------------------------------------------------------------
+NORMAL Type
+-Normal type attacks are now resisted by fighting types because a trained fighter can ussually endure attacks from regular people
+-Normal types are now immune to fairy type attacks
+
+FIGHTING Type
+-Fighting type now resists normal type atacks
+-Fighting type attacks are now resissted by grass types because punching plants doesn't do much really
+
+FLYING Type
+-Flying type attacks are now resisted by Ghost types because ghosts have no physical form and flying used to be a physical type
+-Flying type attacks do no damage to ground types because you cannot hit the ground if you are flying in the air
+
+POISON Type
+-Posion is now super effective against Bug because it was like that back in gen 1
+-Poison is now super effective against water because water is easily polluted
+-Poison is now super effective against steel instead of having no effect because metal corrodes from toxic chemicals
+-Poison attacks are now resisted by psychic types because science counters polltution
+-Poison attacks are now resisted by Ice types because ice is a pre uncorruptable substance in mythologies
+-Poison attacks are now resisted by Dragon types because dragons have strong resistances to being poisoned
+-Poison attacks are now resisted by Dark types because evil is already toxic enough
+-Poison is now weak to fire type attacks
+-Poison is now immune to water type attacks
+-Poison is now weak to bug type attacks
+
+GROUND Type
+-Ground types are now immune to flying type attacks
+-Ground type attacks are now resistsed by dragons because of a dragons super hard scales
+-Ground type attacks are now resisted by Ghost types because ghosts have no physical form and ground used to be a physical type
+
+ROCK Type
+-Rock type attacks are now resisted by Ghost types because ghosts have no physical form and rock used to be a physical type
+-Rock type is now weak to ice type attacks
+-Rock type attacks are now resistsed by dragons because of a dragons super hard scales
+
+BUG Type
+-Bug types are now weak to posion type attacks
+-Bug types are now weak to ice type attacks
+-Bug type attacks are resisted by dragon types because do you really think a bug can hurt a dragon
+-Bug type attacks are super effective against other bugs because it takes a bug to kill a bug
+-Bug now resists psychic type attacks
+-Bug is now super effective against poison because that was how it was in gen 1
+
+GHOST Type
+-Ghost now resists flying type attacks
+-Ghost now resists ground type attacks
+-Ghost now resists rock type attacks
+-Ghost now resists steel type attacks
+-Ghost now resists psychic type attacks
+-Ghost types are now weak to fire type attacks
+-Ghost types are now weak to fairy type attacks
+
+STEEL Type
+-Steel types are now weak to poison type attacks
+-Steel types are now weak to electric type attacks
+-Steel type attacks are now resistsed by dragons because of a dragons super hard scales
+-Steel type attacks are now resisted by Ghost types because ghosts have no physical form and steel used to be a physical type
+-Steel no longer resists psychic type attacks
+
+FIRE Type
+-Fire type attacks are now super effective against ghost types because fire cleanses spirits
+-Fire type attacks are now super effective against fairy types because fire is a common weakness for fae creatures
+-Fire type attacks are now super effective against posion types because most pollutants burn
+-Fire type attacks are now resisted by ground types because dirt does not burn well
+
+WATER Type
+-Water types are now weak to poison type attacks
+-Water type attacks have no effect on poison types because oil and water don't mix
+-Water type attacks are now resistsed by ice types because water resists ice and they are both technically water
+
+GRASS Type
+-Graas now resists fighting type attacks
+-Grass now resists psychic type attacks
+-Grass is now immune to fairy type attacks
+
+ELECTRIC Type
+-Electric type attacks are now super effective to steel types because metal conducts electricicty
+-Electric type attacks are now resissted by ice types because PURE water has very little conductivity and ice is pure
+
+PSYCHIC Type
+-Psychic types now resist poison type attacks
+-Psychic type attacks are resistsed by bug types because the fear of them makes it hard to concentrate
+-Psychic type attacks are resistsed by ghost types because the fear of them makes it hard to concentrate
+-Psychic type attacks are resistsed by grass types because plants have no sentience 
+-Psychic is now normally effective to steel types
+
+ICE Type
+-Ice types now resist poison type attacks
+-Ice now resists water type attacks
+-Ice now resists electric type attacks
+-Ice now resists dark type attacks
+-Ice type attacks are now super effective against bug types because bugs die off in the winter
+-Ice type attacks are now super effective against fairy types because freezing is a common weakness for fae creatures
+-Ice type attacks are now super effective against rock types because freezing water expands and breaks apart rocks
+
+DRAGON Type
+-Dragon types now resist poison type attacks
+-Dragon types now resist bug type attacks
+-Dragon types now resist steel type attacks
+-Dragon types now resist ground type attacks
+-Dragon types now resist rock type attacks
+
+DARK Type
+-Dark types now resist poison type attacks
+-Dark type attacks are now resisted by ice types because ice is pure and incorruptable
+
+FAIRY Type
+-Fairy types are now weak to Fire type attacks
+-Fairy types are now weak to ice type attacks
+-Fairy type attacks now have no effect on grass types because fairies do not want to destroy their forest homes
+-Fairy type attacks now have no efefct on normal types because it is normal to not believe in faries
+-Fairy type attacks are now super effectib=ve against ghosts because magic can hard ghosts
+------------------------------------------------------------------------------------------------------------------------------------------------------------
