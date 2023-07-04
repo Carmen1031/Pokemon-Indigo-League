@@ -111,3 +111,7 @@ FAIRY Type
 -Fairy type attacks now have no efefct on normal types because it is normal to not believe in faries
 -Fairy type attacks are now super effectib=ve against ghosts because magic can hard ghosts
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+The odds of encountering a shiny has been increased from 8 to 655 in 65536, so there is slightly less than a 1% chance each encounter for shiny
+You can now use vitamins on a pokemon until they are at maximum EVs instead of just until they have 100 in a stat
+Pokemon can now have 255 EVs in each and every stat
