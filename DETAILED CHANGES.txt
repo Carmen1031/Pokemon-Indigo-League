@@ -117,3 +117,7 @@ You can now use vitamins on a pokemon until they are at maximum EVs instead of j
 Pokemon can now have 255 EVs in each and every stat
 
 HP formula is now (((3 * baseHP + hpIV + (hpEV / 3)) * level) / 100) + level + 18;
+
+Text speed is now set to FAST by default instead of MID
+Battle Mode is now SET by default instead of SWITCH
+L and R buttons are set to L and R by default instead of help

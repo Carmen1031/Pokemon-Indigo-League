@@ -1,6 +1,10 @@
 # Pokémon Indigo League Version 1.0
 
 Change Log
+7/13/2023
+--Changed the default settings to text speed fast, battle mode set, and L/R to L and R indstead of help
+--Increased the mximum EVs a pokemon can have in a stat from 255 to 510
+--Edited the HP formula again, still get 999 hp with 255 base hp and maxed out everything
 7/4/2023
 --Created a new type effectivness chart
 --Edited the type effectivness in the code
