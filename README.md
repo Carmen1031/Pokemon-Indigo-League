@@ -4,6 +4,8 @@ Change Log
 7/17/2023
 --Changed the typing of some pokemon
 --Changed the trade evolutions to evolve by level up
+--Changed the levels at which some pokemon evolve
+--Made it so no gen 1 pokemon can evolve into the gen 2 pokemon because only gen 1 pokemon are suppossed to be in this hack
 7/13/2023
 --Changed the default settings to text speed fast, battle mode set, and L/R to L and R indstead of help
 --Edited the HP formula again, still get 999 hp with 255 base hp and maxed out everything
