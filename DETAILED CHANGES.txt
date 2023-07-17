@@ -139,3 +139,9 @@ Ekans and Arbok are now Poison Dark Type
 Zubat and Golbat are now Flying Dark type
 Drowzee and Hypno are now Psychic dark type
 Exeggcute and exeggcutor are now just grass type
+Gyrados is now Water Dragon type
+
+Changed the evolutions of the following pokemon
+Kadabra now evolves at level 40 instead of by trade
+Machoke, Graveller, and Haunter now evolve at level 45 instead of by trade
+Magikarp now evolves at level 30
