@@ -130,3 +130,12 @@ Stats for attack, defense, speed, special attack, and special defense is now
 Text speed is now set to FAST by default instead of MID
 Battle Mode is now SET by default instead of SWITCH
 L and R buttons are set to L and R by default instead of help
+
+Changed the typing of the following pokemon
+Haunter and Gengar are now pure Ghost type
+Onyx, Geodude, Graveller, and Golem are pure Rock type now
+Rhyhorn and Rhydon are now pure ground type
+Ekans and Arbok are now Poison Dark Type
+Zubat and Golbat are now Flying Dark type
+Drowzee and Hypno are now Psychic dark type
+Exeggcute and exeggcutor are now just grass type
