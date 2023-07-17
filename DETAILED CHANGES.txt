@@ -116,7 +116,16 @@ The odds of encountering a shiny has been increased from 8 to 655 in 65536, so t
 You can now use vitamins on a pokemon until they are at maximum EVs instead of just until they have 100 in a stat
 Pokemon can now have a maximum of 1530 evs total, allowing them to have 255 in each stat
 
-HP formula is now (((2.6 x baseHP + hpIV + (hpEV / 3)) x level) / 100) + 1.15xlevel + 20;
+HP formula is now 
+	s32 n = (13*gSpeciesInfo[species].baseHP/5) + 31;
+        newMaxHP = (((n + (2*hpEV/3)) * level) / 100) + (23*level/20) + 20;
+
+Which gives a max hp of 999 if the pokemon has 255 base hp, 31 hp ivs, 255 hp evs, and is level 100
+
+Stats for attack, defense, speed, special attack, and special defense is now 
+	s32 n = (((2 * baseStat + (2*iv/3) + (8*ev/17)) * level) / 100) + (level/4) +5; 
+
+	Which gives a pokemon with a base stat of 255 a stat of 680 with max ivs, evs, level, and a neutral nature, 748 with a positive nature
 
 Text speed is now set to FAST by default instead of MID
 Battle Mode is now SET by default instead of SWITCH

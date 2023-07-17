@@ -37,10 +37,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
     [SPECIES_NONE] = {0},
     [SPECIES_BULBASAUR] =
     {
-        .baseHP = 255,
+        .baseHP = 45,
         .baseAttack = 49,
         .baseDefense = 49,
-        .baseSpeed = 255,
+        .baseSpeed = 45,
         .baseSpAttack = 65,
         .baseSpDefense = 65,
         .types = {TYPE_GRASS, TYPE_POISON},
