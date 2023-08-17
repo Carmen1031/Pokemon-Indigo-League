@@ -157,4 +157,12 @@ All of the starter pokeom have a 50/50 chance of male or female
 Mr. Mime will now always be male
 Eevee and it's evolutions are now 50-50 for male or female
 Nidorina and Nidoqueen can now breed
-Farfetch'd is now only in the flying egg group 
+Farfetch'd is now only in the flying egg group
+
+---------------Edited the catch rates of the following pokemon
+Bulbasuar, Charmander, and Squirtle are at 200
+Ivysaur, Charmeleon, and Warttortle are at 100
+Venasaur, Charizard, and Blastoise are now at 50
+Articuno, Zapdow, and Moltres are now 5
+Mewtwo is now 1 
+Mew is now 5
