@@ -117,7 +117,7 @@ You can now use vitamins on a pokemon until they are at maximum EVs instead of j
 Pokemon can now have a maximum of 1530 evs total, allowing them to have 255 in each stat
 
 HP formula is now 
-	s32 n = (13*gSpeciesInfo[species].baseHP/5) + 31;
+	s32 n = (13*gSpeciesInfo[species].baseHP/5) + hpIV;
         newMaxHP = (((n + (2*hpEV/3)) * level) / 100) + (23*level/20) + 20;
 
 Which gives a max hp of 999 if the pokemon has 255 base hp, 31 hp ivs, 255 hp evs, and is level 100
@@ -131,20 +131,30 @@ Text speed is now set to FAST by default instead of MID
 Battle Mode is now SET by default instead of SWITCH
 L and R buttons are set to L and R by default instead of help
 
-Changed the typing of the following pokemon
+----Changed the typing of the following pokemon---------------------------------------------------------------------------------------------------------
 Haunter and Gengar are now pure Ghost type
 Onyx, Geodude, Graveller, and Golem are pure Rock type now
 Rhyhorn and Rhydon are now pure ground type
 Ekans and Arbok are now Poison Dark Type
 Zubat and Golbat are now Flying Dark type
 Drowzee and Hypno are now Psychic dark type
-Exeggcute and exeggcutor are now just grass type
-Bulbasaur,vysaur, and venasaur are just pure grass now
+Exeggcute and Exeggcutor are now just grass type
+Bulbasaur,Ivysaur, and Venasaur are just pure grass now
 Gyrados is now Water Dragon type
 
-Changed the evolutions of the following pokemon
+-------Changed the evolutions of the following pokemon--------------------------------------------------------------------------------------------------
 Kadabra now evolves at level 40 instead of by trade
 Machoke, Graveller, and Haunter now evolve at level 45 instead of by trade
 Magikarp now evolves at level 30
 Ivysaur now evolves at level 36 like the rest of the starters
-Chansey and golbat will no longer evolve into their gen 2 pokemon because I only want gen 1 in this hack
+Chansey, eevee, and golbat will no longer evolve into their gen 2 pokemon because I only want gen 1 in this hack
+
+-------------Changed the gender ratios of the following pokemon------------------------------------------------------------------------------------------
+Mewtwo will always be male, he cannot breed
+Mew will always be female, she cannot breed
+Articuno, Zapdos, and Moltres can be male or female, 50 50 and are part of the Flying egg group. 
+All of the starter pokeom have a 50/50 chance of male or female
+Mr. Mime will now always be male
+Eevee and it's evolutions are now 50-50 for male or female
+Nidorina and Nidoqueen can now breed
+Farfetch'd is now only in the flying egg group 

@@ -2127,7 +2127,7 @@ void CalculateMonStats(struct Pokemon *mon)
     }
     else
     {
-        s32 n = (13*gSpeciesInfo[species].baseHP/5) + 31;
+        s32 n = (13*gSpeciesInfo[species].baseHP/5) + hpIV;
         newMaxHP = (((n + (2*hpEV/3)) * level) / 100) + (23*level/20) + 20;
     }
 
