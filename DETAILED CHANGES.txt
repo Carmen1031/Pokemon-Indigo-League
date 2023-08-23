@@ -133,6 +133,7 @@ L and R buttons are set to L and R by default instead of help
 Burn now halves special attack as well and GUTs does not help with that
 Super effective multiplier is now 1.5x
 Not Very Effevtice Multiplier is now 0.67x
+Badge boosts have been removed
 
 ----Changed the typing of the following pokemon---------------------------------------------------------------------------------------------------------
 Haunter and Gengar are now pure Ghost type
