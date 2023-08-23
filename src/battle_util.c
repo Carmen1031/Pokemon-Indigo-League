@@ -762,7 +762,7 @@ u8 DoBattlerEndTurnEffects(void)
                  && gBattleMons[gActiveBattler].hp != gBattleMons[gActiveBattler].maxHP
                  && gBattleMons[gActiveBattler].hp != 0)
                 {
-                    gBattleMoveDamage = gBattleMons[gActiveBattler].maxHP / 16;
+                    gBattleMoveDamage = gBattleMons[gActiveBattler].maxHP / 20;
                     if (gBattleMoveDamage == 0)
                         gBattleMoveDamage = 1;
                     gBattleMoveDamage *= -1;
@@ -792,7 +792,7 @@ u8 DoBattlerEndTurnEffects(void)
                  && gBattleMons[gActiveBattler].hp != 0)
                 {
                     gBattlerTarget = gStatuses3[gActiveBattler] & STATUS3_LEECHSEED_BATTLER; // Notice gBattlerTarget is actually the HP receiver.
-                    gBattleMoveDamage = gBattleMons[gActiveBattler].maxHP / 8;
+                    gBattleMoveDamage = gBattleMons[gActiveBattler].maxHP / 10;
                     if (gBattleMoveDamage == 0)
                         gBattleMoveDamage = 1;
                     gBattleScripting.animArg1 = gBattlerTarget;
@@ -805,7 +805,7 @@ u8 DoBattlerEndTurnEffects(void)
             case ENDTURN_POISON:  // poison
                 if ((gBattleMons[gActiveBattler].status1 & STATUS1_POISON) && gBattleMons[gActiveBattler].hp != 0)
                 {
-                    gBattleMoveDamage = gBattleMons[gActiveBattler].maxHP / 8;
+                    gBattleMoveDamage = gBattleMons[gActiveBattler].maxHP / 10;
                     if (gBattleMoveDamage == 0)
                         gBattleMoveDamage = 1;
                     BattleScriptExecute(BattleScript_PoisonTurnDmg);
@@ -816,10 +816,10 @@ u8 DoBattlerEndTurnEffects(void)
             case ENDTURN_BAD_POISON:  // toxic poison
                 if ((gBattleMons[gActiveBattler].status1 & STATUS1_TOXIC_POISON) && gBattleMons[gActiveBattler].hp != 0)
                 {
-                    gBattleMoveDamage = gBattleMons[gActiveBattler].maxHP / 16;
+                    gBattleMoveDamage = gBattleMons[gActiveBattler].maxHP / 20;
                     if (gBattleMoveDamage == 0)
                         gBattleMoveDamage = 1;
-                    if ((gBattleMons[gActiveBattler].status1 & STATUS1_TOXIC_COUNTER) != STATUS1_TOXIC_TURN(15)) // not 16 turns
+                    if ((gBattleMons[gActiveBattler].status1 & STATUS1_TOXIC_COUNTER) != STATUS1_TOXIC_TURN(19)) // not 20 turns
                         gBattleMons[gActiveBattler].status1 += STATUS1_TOXIC_TURN(1);
                     gBattleMoveDamage *= (gBattleMons[gActiveBattler].status1 & STATUS1_TOXIC_COUNTER) >> 8;
                     BattleScriptExecute(BattleScript_PoisonTurnDmg);
@@ -830,7 +830,7 @@ u8 DoBattlerEndTurnEffects(void)
             case ENDTURN_BURN:  // burn
                 if ((gBattleMons[gActiveBattler].status1 & STATUS1_BURN) && gBattleMons[gActiveBattler].hp != 0)
                 {
-                    gBattleMoveDamage = gBattleMons[gActiveBattler].maxHP / 8;
+                    gBattleMoveDamage = gBattleMons[gActiveBattler].maxHP / 20;
                     if (gBattleMoveDamage == 0)
                         gBattleMoveDamage = 1;
                     BattleScriptExecute(BattleScript_BurnTurnDmg);
@@ -845,7 +845,7 @@ u8 DoBattlerEndTurnEffects(void)
                     // persist even after the affected Pokemon has been awakened by Shed Skin.
                     if (gBattleMons[gActiveBattler].status1 & STATUS1_SLEEP)
                     {
-                        gBattleMoveDamage = gBattleMons[gActiveBattler].maxHP / 4;
+                        gBattleMoveDamage = gBattleMons[gActiveBattler].maxHP / 5;
                         if (gBattleMoveDamage == 0)
                             gBattleMoveDamage = 1;
                         BattleScriptExecute(BattleScript_NightmareTurnDmg);
@@ -883,7 +883,7 @@ u8 DoBattlerEndTurnEffects(void)
                         gBattleTextBuff1[3] = *(gBattleStruct->wrappedMove + gActiveBattler * 2 + 1);
                         gBattleTextBuff1[4] = EOS;
                         gBattlescriptCurrInstr = BattleScript_WrapTurnDmg;
-                        gBattleMoveDamage = gBattleMons[gActiveBattler].maxHP / 16;
+                        gBattleMoveDamage = gBattleMons[gActiveBattler].maxHP / 20;
                         if (gBattleMoveDamage == 0)
                             gBattleMoveDamage = 1;
                     }

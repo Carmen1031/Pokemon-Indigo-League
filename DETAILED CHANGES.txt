@@ -166,3 +166,16 @@ Venasaur, Charizard, and Blastoise are now at 50
 Articuno, Zapdow, and Moltres are now 5
 Mewtwo is now 1 
 Mew is now 5
+
+------------Changed the following end of turn effects-------------------------------------------------------------------
+Ingrain restores 1/20 hp instead of 1/16
+Leech Seed deals and restores 1/10 hp instead of 1/8
+Poison deals 1/10 hp in damage instead of 1/8
+Toxic starts at 1/20 instead of 1/16 and increases ny 1/20 per turn instead of 1/16
+Burn now deals 1/20 hp in damage instead of 1/8
+Nightmare deals 1/5 hp per turn instead of 1/4
+Wrap effects of moves deal 1/20 hp instead of 1/16
+
+
+
+

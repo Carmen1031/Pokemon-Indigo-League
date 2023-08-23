@@ -1,6 +1,13 @@
 # Pokémon Indigo League Version 1.0
 
 Change Log /n 
+8/23/2023 /n
+--Nerfed the end of turn damage amount of poison, burn, and toxic
+--Nerfed the end of turn effects of ingrain and leech seed
+--Nerfed the end of turn damage of nightmare and moves with a wrap effect
+8/18/2023/n
+--Changed the gender ratios of some pokemon/n
+--Changed the egg catagory of some pokemon /n
 7/17/2023 /n
 --Changed the typing of some pokemon /n
 --Changed the trade evolutions to evolve by level up /n
