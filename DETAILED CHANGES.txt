@@ -130,6 +130,9 @@ Stats for attack, defense, speed, special attack, and special defense is now
 Text speed is now set to FAST by default instead of MID
 Battle Mode is now SET by default instead of SWITCH
 L and R buttons are set to L and R by default instead of help
+Burn now halves special attack as well and GUTs does not help with that
+Super effective multiplier is now 1.5x
+Not Very Effevtice Multiplier is now 0.67x
 
 ----Changed the typing of the following pokemon---------------------------------------------------------------------------------------------------------
 Haunter and Gengar are now pure Ghost type

@@ -1239,7 +1239,7 @@ void AI_CalcDmg(u8 attacker, u8 defender)
 
 static void ModulateDmgByType(u8 multiplier)
 {
-    gBattleMoveDamage = gBattleMoveDamage * multiplier / 10;
+    gBattleMoveDamage = gBattleMoveDamage * multiplier / 100;
     if (gBattleMoveDamage == 0 && multiplier != 0)
         gBattleMoveDamage = 1;
 
@@ -1420,7 +1420,7 @@ static void CheckWonderGuardAndLevitate(void)
 // Same as ModulateDmgByType except different arguments
 static void ModulateDmgByType2(u8 multiplier, u16 move, u8 *flags)
 {
-    gBattleMoveDamage = gBattleMoveDamage * multiplier / 10;
+    gBattleMoveDamage = gBattleMoveDamage * multiplier / 100;
     if (gBattleMoveDamage == 0 && multiplier != 0)
         gBattleMoveDamage = 1;
 

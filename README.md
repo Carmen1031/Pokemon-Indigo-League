@@ -5,6 +5,8 @@ Change Log /n
 --Nerfed the end of turn damage amount of poison, burn, and toxic
 --Nerfed the end of turn effects of ingrain and leech seed
 --Nerfed the end of turn damage of nightmare and moves with a wrap effect
+--Changed super effective multiplier to x1.5
+--Changed not very effective multiplier to x0.67
 8/18/2023/n
 --Changed the gender ratios of some pokemon/n
 --Changed the egg catagory of some pokemon /n
