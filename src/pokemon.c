@@ -2591,6 +2591,10 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
         damage = (damage / damageHelper);
         damage /= 50;
 
+        // Burn cuts special in half now
+        if (attacker->status1 & STATUS1_BURN) 
+            damage /= 2;
+        
         // Apply Lightscreen
         if ((sideStatus & SIDE_STATUS_LIGHTSCREEN) && gCritMultiplier == 1)
         {
