@@ -33,9 +33,9 @@ struct MultiBattlePokemonTx
 
 // defines for the gTypeEffectiveness multipliers
 #define TYPE_MUL_NO_EFFECT          0
-#define TYPE_MUL_NOT_EFFECTIVE      50
-#define TYPE_MUL_NORMAL             67
-#define TYPE_MUL_SUPER_EFFECTIVE    150
+#define TYPE_MUL_NOT_EFFECTIVE      20
+#define TYPE_MUL_NORMAL             30
+#define TYPE_MUL_SUPER_EFFECTIVE    45
 
 // special type table Ids
 #define TYPE_FORESIGHT  0xFE
